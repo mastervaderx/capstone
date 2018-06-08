@@ -1,0 +1,39 @@
+.absolute-top {
+  top: 0;
+  position: absolute;
+}
+.absolute-bottom {
+  bottom: 0;
+  position: absolute;
+}
+.logo {
+  width: auto;
+  height: 200px;
+}
+.navbar-brand > img {
+  width: auto;
+  height: 2.5em;
+}
+footer {
+  padding-top: 10px;
+  line-height: 1.25;
+}
+.fa-angle-down, a:hover {
+  cursor: pointer;
+  color: rgba(0, 0, 0, .85);
+}
+.spin {animation: spin 10s linear infinite}
+@keyframes spin {
+  100% {transform: rotate(360deg)}
+}
+nav {background-color: rgba(255, 255, 255, .5)}
+.main-hr {width: 0}
+body {overflow-x: hidden}
+a:hover {text-decoration: none}
+a {color: #000}
+.full-width {width: 100vw}
+.full-height {height: 100vh}
+.red {color: #B03A2E}
+.blue {color: #2874A6}
+.bg-red, .bg-red::after, .bg-red::before {background-color: #B03A2E}
+.bg-blue, .bg-blue::after, .bg-blue::before {background-color: #2874A6}
